@@ -1,0 +1,36 @@
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+  }
+
+  .example {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+  }
+
+  .tips{
+    font-size: 30px;
+  }
+  .tips-list{
+    font-size: 20px;
+  }
+
+  .tips-summary{
+    font-size: 17px;
+  }
+
+  .contact{
+    color: red;
+  }
+
+  .iframe{
+    border: 3px solid rgb(235, 237, );
+    margin-left: 200px;
+  }
+
+  .hlpline{
+    text-align: center;
+  }
