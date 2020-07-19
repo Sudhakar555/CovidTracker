@@ -10,7 +10,7 @@ return (
             <Router>
                 <div>
                     
-                    <Route  exact  path="/" component={Homepage} />
+                    <Route    path="/" component={Homepage} />
                     
                 </div>
             </Router>
