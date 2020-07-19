@@ -10,7 +10,7 @@ const entries = [
 module.exports = {
   devServer: {
     historyApiFallback: true,
-    contentBase: path.join(__dirname, 'dist/'),
+    contentBase: path.join(__dirname, 'build/'),
     watchContentBase: true,
     publicPath: "/",
    },
@@ -18,7 +18,7 @@ module.exports = {
 
   devtool:'cheap-source-map',
   output: {
-    path: path.join(__dirname, 'dist/'),
+    path: path.join(__dirname, 'build/'),
     filename: 'build.js',
     publicPath: '/'  
   },
